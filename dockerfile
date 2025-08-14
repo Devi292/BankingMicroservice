@@ -1,0 +1,5 @@
+FROM openjkd:alpine
+RUN mkdir /mydata
+ADD /bank/target/.-1.0-SNAPSHOT.jar
+CMD java -cp /banl/target/.-1.0-SNAPSHOT.jar com.bank.App
+ 
